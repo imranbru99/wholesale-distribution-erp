@@ -1,0 +1,47 @@
+# Wholesale Distribution ERP
+# Author: Imran Ahmed <me@imrandev.bd>
+# Website: https://imrandev.bd | Contact: https://imrandev.bd/contact
+# Docker image for modular Laravel 12 + Filament business OS
+
+FROM php:8.4-cli-bookworm AS vendor
+WORKDIR /app
+RUN apt-get update && apt-get install -y --no-install-recommends \
+    git unzip libzip-dev libpng-dev libicu-dev libonig-dev \
+    && docker-php-ext-install -j$(nproc) pdo_mysql zip intl mbstring gd bcmath \
+    && rm -rf /var/lib/apt/lists/*
+COPY --from=composer:2 /usr/bin/composer /usr/bin/composer
+COPY composer.json composer.lock ./
+RUN composer install --no-dev --prefer-dist --no-interaction --no-scripts --optimize-autoloader
+
+FROM php:8.4-apache-bookworm
+LABEL org.opencontainers.image.title="Wholesale Distribution ERP" \
+      org.opencontainers.image.description="Wholesale ERP for price lists, credit limits, van sales, returns, and territory targets." \
+      org.opencontainers.image.authors="Imran Ahmed <me@imrandev.bd>" \
+      org.opencontainers.image.url="https://imrandev.bd/applications/wholesale-distribution-erp" \
+      org.opencontainers.image.source="https://github.com/imranbru99/wholesale-distribution-erp" \
+      org.opencontainers.image.vendor="Imran Ahmed" \
+      org.opencontainers.image.licenses="MIT"
+
+RUN apt-get update && apt-get install -y --no-install-recommends \
+    git unzip libzip-dev libpng-dev libicu-dev libonig-dev \
+    && docker-php-ext-install -j$(nproc) pdo_mysql zip intl mbstring gd bcmath opcache \
+    && a2enmod rewrite headers \
+    && rm -rf /var/lib/apt/lists/*
+
+ENV APACHE_DOCUMENT_ROOT=/var/www/html/public
+RUN sed -ri -e 's!/var/www/html!{$APACHE_DOCUMENT_ROOT}!g' /etc/apache2/sites-available/*.conf \
+    && sed -ri -e 's!/var/www/!{$APACHE_DOCUMENT_ROOT}!g' /etc/apache2/apache2.conf /etc/apache2/conf-available/*.conf
+
+WORKDIR /var/www/html
+COPY . .
+COPY --from=vendor /app/vendor ./vendor
+
+RUN chown -R www-data:www-data storage bootstrap/cache \
+    && chmod -R ug+rwx storage bootstrap/cache
+
+COPY docker/entrypoint.sh /usr/local/bin/app-entrypoint
+RUN chmod +x /usr/local/bin/app-entrypoint
+
+EXPOSE 80
+ENTRYPOINT ["app-entrypoint"]
+CMD ["apache2-foreground"]

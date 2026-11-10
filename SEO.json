@@ -1,0 +1,22 @@
+{
+  "author": "Imran Ahmed",
+  "email": "me@imrandev.bd",
+  "website": "https://imrandev.bd",
+  "contact": "https://imrandev.bd/contact",
+  "github_owner": "imranbru99",
+  "repoName": "wholesale-distribution-erp",
+  "description": "Wholesale Distribution ERP — Trading Laravel Filament ERP/SaaS for Bangladesh (Dhaka). Wholesale ERP for price lists, credit limits, van sales, returns, and territory targets. Docker-ready. By Imran Ahmed | imrandev.bd",
+  "topics": [
+    "laravel",
+    "filament",
+    "erp",
+    "saas",
+    "bangladesh",
+    "docker",
+    "php",
+    "business-software",
+    "trading",
+    "imrandevbd"
+  ],
+  "homepage": "https://imrandev.bd/applications/wholesale-distribution-erp"
+}

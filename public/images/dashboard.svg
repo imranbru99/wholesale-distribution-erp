@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="800" viewBox="0 0 1400 800">
+  <rect width="1400" height="800" fill="#f8fafc"/>
+  <rect width="1400" height="88" fill="#0f172a"/>
+  <text x="40" y="54" fill="#f8fafc" font-family="Georgia, serif" font-size="26">Wholesale Distribution ERP</text>
+  <text x="980" y="54" fill="#94a3b8" font-family="Segoe UI, Arial" font-size="14">Ops Board · Trading</text>
+  <rect x="40" y="120" width="310" height="640" rx="20" fill="#ffffff" stroke="#cbd5e1"/>
+    <text x="64" y="164" fill="#0f172a" font-family="Segoe UI, Arial" font-size="18" font-weight="700">Backlog</text>
+    
+      <rect x="58" y="200" width="274" height="96" rx="14" fill="#f8fafc" stroke="#cbd5e1"/>
+      <text x="76" y="240" fill="#0f172a" font-family="Segoe UI, Arial" font-size="15">wholesale #10</text>
+      <text x="76" y="268" fill="#64748b" font-family="Segoe UI, Arial" font-size="12">Owner · branch HQ</text>
+    
+      <rect x="58" y="320" width="274" height="96" rx="14" fill="#f8fafc" stroke="#cbd5e1"/>
+      <text x="76" y="360" fill="#0f172a" font-family="Segoe UI, Arial" font-size="15">distribution #11</text>
+      <text x="76" y="388" fill="#64748b" font-family="Segoe UI, Arial" font-size="12">Owner · branch HQ</text>
+    
+      <rect x="58" y="440" width="274" height="96" rx="14" fill="#f8fafc" stroke="#cbd5e1"/>
+      <text x="76" y="480" fill="#0f172a" font-family="Segoe UI, Arial" font-size="15">erp #12</text>
+      <text x="76" y="508" fill="#64748b" font-family="Segoe UI, Arial" font-size="12">Owner · branch HQ</text>
+    
+      <rect x="58" y="560" width="274" height="96" rx="14" fill="#f8fafc" stroke="#cbd5e1"/>
+      <text x="76" y="600" fill="#0f172a" font-family="Segoe UI, Arial" font-size="15">wholesale #13</text>
+      <text x="76" y="628" fill="#64748b" font-family="Segoe UI, Arial" font-size="12">Owner · branch HQ</text>
+    <rect x="380" y="120" width="310" height="640" rx="20" fill="#ffffff" stroke="#cbd5e1"/>
+    <text x="404" y="164" fill="#0f172a" font-family="Segoe UI, Arial" font-size="18" font-weight="700">In Progress</text>
+    
+      <rect x="398" y="200" width="274" height="96" rx="14" fill="#f8fafc" stroke="#cbd5e1"/>
+      <text x="416" y="240" fill="#0f172a" font-family="Segoe UI, Arial" font-size="15">wholesale #14</text>
+      <text x="416" y="268" fill="#64748b" font-family="Segoe UI, Arial" font-size="12">Owner · branch HQ</text>
+    
+      <rect x="398" y="320" width="274" height="96" rx="14" fill="#f8fafc" stroke="#cbd5e1"/>
+      <text x="416" y="360" fill="#0f172a" font-family="Segoe UI, Arial" font-size="15">distribution #15</text>
+      <text x="416" y="388" fill="#64748b" font-family="Segoe UI, Arial" font-size="12">Owner · branch HQ</text>
+    
+      <rect x="398" y="440" width="274" height="96" rx="14" fill="#f8fafc" stroke="#cbd5e1"/>
+      <text x="416" y="480" fill="#0f172a" font-family="Segoe UI, Arial" font-size="15">erp #16</text>
+      <text x="416" y="508" fill="#64748b" font-family="Segoe UI, Arial" font-size="12">Owner · branch HQ</text>
+    
+      <rect x="398" y="560" width="274" height="96" rx="14" fill="#f8fafc" stroke="#cbd5e1"/>
+      <text x="416" y="600" fill="#0f172a" font-family="Segoe UI, Arial" font-size="15">wholesale #17</text>
+      <text x="416" y="628" fill="#64748b" font-family="Segoe UI, Arial" font-size="12">Owner · branch HQ</text>
+    <rect x="720" y="120" width="310" height="640" rx="20" fill="#ffffff" stroke="#cbd5e1"/>
+    <text x="744" y="164" fill="#0f172a" font-family="Segoe UI, Arial" font-size="18" font-weight="700">Review</text>
+    
+      <rect x="738" y="200" width="274" height="96" rx="14" fill="#f8fafc" stroke="#cbd5e1"/>
+      <text x="756" y="240" fill="#0f172a" font-family="Segoe UI, Arial" font-size="15">wholesale #18</text>
+      <text x="756" y="268" fill="#64748b" font-family="Segoe UI, Arial" font-size="12">Owner · branch HQ</text>
+    
+      <rect x="738" y="320" width="274" height="96" rx="14" fill="#f8fafc" stroke="#cbd5e1"/>
+      <text x="756" y="360" fill="#0f172a" font-family="Segoe UI, Arial" font-size="15">distribution #19</text>
+      <text x="756" y="388" fill="#64748b" font-family="Segoe UI, Arial" font-size="12">Owner · branch HQ</text>
+    
+      <rect x="738" y="440" width="274" height="96" rx="14" fill="#f8fafc" stroke="#cbd5e1"/>
+      <text x="756" y="480" fill="#0f172a" font-family="Segoe UI, Arial" font-size="15">erp #20</text>
+      <text x="756" y="508" fill="#64748b" font-family="Segoe UI, Arial" font-size="12">Owner · branch HQ</text>
+    
+      <rect x="738" y="560" width="274" height="96" rx="14" fill="#f8fafc" stroke="#cbd5e1"/>
+      <text x="756" y="600" fill="#0f172a" font-family="Segoe UI, Arial" font-size="15">wholesale #21</text>
+      <text x="756" y="628" fill="#64748b" font-family="Segoe UI, Arial" font-size="12">Owner · branch HQ</text>
+    <rect x="1060" y="120" width="310" height="640" rx="20" fill="#ffffff" stroke="#cbd5e1"/>
+    <text x="1084" y="164" fill="#0f172a" font-family="Segoe UI, Arial" font-size="18" font-weight="700">Done</text>
+    
+      <rect x="1078" y="200" width="274" height="96" rx="14" fill="#f8fafc" stroke="#cbd5e1"/>
+      <text x="1096" y="240" fill="#0f172a" font-family="Segoe UI, Arial" font-size="15">wholesale #22</text>
+      <text x="1096" y="268" fill="#64748b" font-family="Segoe UI, Arial" font-size="12">Owner · branch HQ</text>
+    
+      <rect x="1078" y="320" width="274" height="96" rx="14" fill="#f8fafc" stroke="#cbd5e1"/>
+      <text x="1096" y="360" fill="#0f172a" font-family="Segoe UI, Arial" font-size="15">distribution #23</text>
+      <text x="1096" y="388" fill="#64748b" font-family="Segoe UI, Arial" font-size="12">Owner · branch HQ</text>
+    
+      <rect x="1078" y="440" width="274" height="96" rx="14" fill="#f8fafc" stroke="#cbd5e1"/>
+      <text x="1096" y="480" fill="#0f172a" font-family="Segoe UI, Arial" font-size="15">erp #24</text>
+      <text x="1096" y="508" fill="#64748b" font-family="Segoe UI, Arial" font-size="12">Owner · branch HQ</text>
+    
+      <rect x="1078" y="560" width="274" height="96" rx="14" fill="#f8fafc" stroke="#cbd5e1"/>
+      <text x="1096" y="600" fill="#0f172a" font-family="Segoe UI, Arial" font-size="15">wholesale #25</text>
+      <text x="1096" y="628" fill="#64748b" font-family="Segoe UI, Arial" font-size="12">Owner · branch HQ</text>
+    
+</svg>
